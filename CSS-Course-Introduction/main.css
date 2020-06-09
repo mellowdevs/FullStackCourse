@@ -1,0 +1,121 @@
+html {
+    font-family:   'Raleway', sans-serif;
+}
+
+body {
+    /* background-image: url(background.jpg); */
+    /* background-repeat:no-repeat; */
+    /* background-size: cover; */
+    background-color: darkcyan;
+    
+}
+
+.container {
+    /* background: linear-gradient(to left,pink,#effc9a, #9afcfb);
+    box-shadow: 3px 5px 10px darkblue ; */
+}
+
+
+/* point value: 1 */
+h1 , h2, h3{
+    color:wheat;
+    line-height: 1rem;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.formatting{
+    font-size: 20px;
+    line-height: 2em;
+    color: wheat;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: thistle;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-transform: capitalize; 
+}
+
+.formatting mark {
+    background-color: hotpink;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    padding : 5px;
+    opacity:0.95;
+    margin: auto;
+    display: block;
+
+
+}
+.borderImg {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border:  3px solid hotpink ;
+    padding: 5px;
+    /* display: block; */
+    /* margin-bottom: 60px; */
+}
+
+button {
+    color: teal;
+    background-color: darkorange;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 20px 5px 25px  ;
+}
+
+ul li {
+    color: teal;
+    font-size: 20px;
+}
+ul > li {
+    color: red;
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+/* Every time a row is created do these after */
+.row::after{
+    display: block;
+    clear: both; 
+    content: "";
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"]{
+    border: 2px solid salmon;
+    padding: 15px;
+    float: left;
+}
