@@ -1,0 +1,312 @@
+/* ######### DEFAULTS #########*/
+nav,
+header,
+footer {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-family: 'Quicksand ';
+}
+
+article p{
+    font-size:20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.5;
+    padding: 10px;
+    text-align: justify;
+}
+
+/* ######### NAV BAR #########*/
+nav {
+    width: 100%;
+    margin: 0;
+}
+
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+nav ul {
+    background-color: #eee;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li {
+    list-style: none;
+    /* tek line yapıyor, sola dayalı */
+    float: left;
+}
+
+ul.topnav li.topnav-right {
+    float: right;
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    min-height: 16px;
+    padding: 12px;
+    text-transform: uppercase;
+    color: darkseagreen;
+}
+
+ul.topnav li a:hover{
+    background-color: darkseagreen;
+    color: #eee;
+}
+
+ul.topnav li.dropdownIcon {
+    display: none;
+}
+
+
+/* ######### Custom Styles #########*/
+#section-1-gradient{
+    background: rgb(238,174,202);
+    background: -moz-radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,187,233,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,187,233,1) 100%);
+    background: radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,187,233,1) 100%);
+}
+
+div.leftSide-col{
+    margin-left: 20%;
+}
+
+div.right Side-col{
+    margin-left: 15%;
+}
+
+div.box {
+    background-color: white;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.25),
+     0 2px 3px 0 rgba(0,0,0,.35);
+     text-align: center;
+     padding: 36px 24px 40px 24px;
+     margin: 25px;
+     border-radius: 7px;
+}
+
+div.aliveIcon img{
+    display: block;
+    margin: auto;
+    box-shadow: -2px /*Hor*/ -2px /*Ver*/ 10px /*Blur*/
+    2px /*Spread*/ rgba(0 /*Shadow*/,0 /*Back*/,0 /*Box*/,.15 /*Opac*/),
+    2px 2px 17px 2px rgba(0 /*Shadow*/,0 /*Back*/,0 /*Box*/,.5 /*Opac*/);
+
+    
+}
+
+div.icon {
+    width: 100%
+}
+
+div.icon img{
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+
+div.box label {
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-weight: 600;
+}
+
+div.box p {
+    font-family: 'Raleway';
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.2;
+}
+
+h1.largerH1{
+    color: #fff;
+    font-family: 'Noto Sans JP';
+    font-size: 3em;
+    margin: 0;
+    line-height: 1.2em;
+}
+
+h1.section2Header {
+    color: darkseagreen;
+    font-family: 'Noto Sans JP';
+    font-size: 3em;
+    text-align: center;
+}
+
+form h2 {
+    color: #fff;
+    font-family: 'Raleway';
+
+}
+
+input[type="text"]{
+    font-size: 20px;
+    width: 200px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+    border: 0px;
+}
+
+input[type="password"]{
+    font-size: 20px;
+    width: 200px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+    border: 0px;
+}
+
+button {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Raleway';
+    background-color: darkseagreen;
+    border: none;
+    color: #eee;
+    padding: 15px 60px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+}
+
+button.learnMore {
+    display: block;
+    margin: auto;
+}
+
+footer.smellyFoot {
+    background-color: darkseagreen;
+    padding-left: 7%;
+    padding-bottom: 2%;
+}
+footer.smellyFoot h1 {
+    color: #eee;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+footer.smellyFoot ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+footer.smellyFoot ul li {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #eee;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+
+/* ######### MOBILE FRIENDLY #########*/
+@media screen and (max-width: 680px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    ul.topnav li.dropdownIcon {
+        display: block;
+        float: right;
+    }
+
+    ul.topnav.responsive li.dropdownIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    ul.topnav.responsive {
+        position: relative;
+    }
+    ul.topnav.responsive li{
+        display: inline;
+        float: none;
+    }
+    ul.topnav.responsive li a{
+        display: block;
+        text-align: center;
+    }
+
+    .col-6, .col-4, .col-7, .col-5{
+        width: 100%;
+        margin: 0;
+    }
+
+    div.mobileStack{
+        width: 50%;
+        display: block;
+    }
+
+    article p {
+        font-size:16px;
+    }
+
+    div.box{
+        padding: 5px;
+        display: block;
+    }
+    div.aliveIcon {
+        margin: 10px;
+    }
+    div.aliveIcon img {
+        width: 100%;
+    }
+    
+    div.leftSide-col,
+    div.rightSide-col {
+        margin: 15px;
+    }
+
+    input[type="text"]{
+        width: 200px;
+    }
+    input[type="password"]{
+        width: 200px;
+    }
+
+    .videoContainer iframe {
+        position: relative;
+        margin: 0;
+        width: 100%;
+    }
+}
