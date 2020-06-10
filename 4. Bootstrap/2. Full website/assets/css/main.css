@@ -1,0 +1,105 @@
+div.jumbotron {
+    text-align: center;
+    background: none;
+}
+
+div.section-light {
+    background-color: #eceeef;
+    padding: 2em;
+}
+div.section-dark{
+    background-color: #cccccc;
+    padding: 2rem;
+    text-align: justify;
+}
+
+.coolStuffWrapper {
+    margin: 2%;
+}
+
+button.coolStuffBtn {
+    background-color: cadetblue;
+    color: cornsilk;
+    margin: auto;
+    display: block;
+}
+
+button.coolStuffBtn:hover{
+    color: cadetblue;
+    background-color: cornsilk;
+}
+
+button.modalButton {
+    background-color: cadetblue;
+    color: cornsilk;
+}
+
+button.modalButton:hover {
+    color: cadetblue;
+    background-color: cornsilk;
+}
+
+button.modalButton:focus{
+    color: cadetblue;
+    background-color: cornsilk;
+}
+
+h5.modal-title{
+    margin:auto;
+}
+
+img.modalImage{
+    display: block;
+    margin: auto;
+}
+
+.modalFormWrapper {
+    width: 100%;
+    padding: 2rem;
+}
+
+.img-center {
+    width: 80%;
+    display: block;
+    height: 60%;
+    margin: auto;
+}
+
+.btn-center {
+    display: block;
+    margin: auto;
+    background-color: lightpink;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    width: 80%;
+}
+
+div.videoModals {
+    display: block;
+    margin: auto;
+}
+
+div.footer-row {
+    padding-top: 3%;
+}
+
+.small-image {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.fab {
+    margin: 1%;
+}
+.fa-facebook  {
+    color: #3b5998;
+}
+
+.fa-instagram {
+    color: #bc2a8d;
+}
+
+.fa-twitter  {
+    color: #00acee;
+}
