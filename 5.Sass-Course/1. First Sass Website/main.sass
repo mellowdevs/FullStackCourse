@@ -1,0 +1,67 @@
+// VARIABLES
+$brand-main:   #660016
+$brand-sub:   #cc66ff
+$brand-dark:   #333
+$brand-light:   #e6f2ff
+
+// MIXINGS
+=shaping($width, $height, $rad, $bg, $color)
+    width:                  $width
+    height:                 $height
+    border-radius:          $rad
+    background-color:       $bg
+    color:                  $color
+
+
+=btn-main($pad, $rad, $bg, $color)
+    padding:                $pad
+    border-radius:          $rad
+    background-color:       $bg
+    color:                  $color
+    border-width:           0
+    border-style:           none
+    cursor:                 pointer
+    display:                block
+    margin:                 auto
+    &:hover
+        background-color: lighten($bg, 20%)
+        color: darken($color, 20%)
+
+
+
+// STYLES
+body
+    background-color: $brand-light
+
+h1
+    text-align: center
+    padding-top: 20px
+
+section
+    background-color: $brand-sub
+    color: $brand-dark
+    width: 780px
+    margin: auto
+    padding: 20px
+    border-radius: 7px
+    position: relative
+    z-index: -3
+
+
+.thumb1
+    +shaping(120px, 120px, 10%, $brand-dark, $brand-light)
+    margin: 0 150px -100px
+    
+.thumb2 
+    +shaping(100px, 100px, 50%, $brand-sub, $brand-light)
+    margin: -20px 1050px
+
+.btn-1
+    +btn-main(15px 20px, 7px, $brand-main, $brand-light)
+
+.btn-2
+    +btn-main(15px 20px, 17px, $brand-dark, $brand-sub)
+    font-size: 2rem
+    &:hover
+        background-color: darken($brand-dark, 20%)
+        color: lighten($brand-sub, 20%)
