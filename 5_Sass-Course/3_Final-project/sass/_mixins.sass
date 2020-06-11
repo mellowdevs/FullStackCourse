@@ -1,0 +1,17 @@
+=btn-variant($color, $bg, $border)
+    $active-background:     darken($bg, 10%)
+    $active-border:         darken($border, 10%)
+
+    color:                  $color
+    background-color:       $bg
+    border-color:           $border
+    &:hover
+        color:              $color
+        background-color:   $active-background
+        border-color:       $active-border
+
+
+=btn-sizing($btn-pad-x, $btn-pad-y, $font-size, $border-rad)
+    padding:                $btn-pad-x $btn-pad-y
+    font-size:              $font-size
+    border-radius:          $border-rad
