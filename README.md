@@ -3,7 +3,7 @@ This repository includes exercises of Full stack course that I'm taking.
 
 So far completed:
 
-1. #### [HTML Course](https://github.com/MelAsAdaLovelace/FullStackCourse/tree/master/1.HTML-Course)
-2. #### [CSS Course](https://github.com/MelAsAdaLovelace/FullStackCourse/tree/master/2.%20CSS-Course)
-3. #### [JS Course](https://github.com/MelAsAdaLovelace/FullStackCourse/tree/master/3.%20Javascript-Course)
-4. #### [Bootstrap Course](https://github.com/MelAsAdaLovelace/FullStackCourse/tree/master/4.%20Bootstrap-Course) 
+1. #### [HTML Course](https://github.com/MelAsAdaLovelace/FullStackCourse/tree/master/1_HTML-Course)
+2. #### [CSS Course](https://github.com/MelAsAdaLovelace/FullStackCourse/tree/master/2_CSS-Course)
+3. #### [JS Course](https://github.com/MelAsAdaLovelace/FullStackCourse/tree/master/3_Javascript-Course)
+4. #### [Bootstrap Course](https://github.com/MelAsAdaLovelace/FullStackCourse/tree/master/4_Bootstrap-Course) 
