@@ -8,4 +8,6 @@ So far completed:
 3. #### [JS Course](https://github.com/MelAsAdaLovelace/FullStackCourse/tree/master/3_Javascript-Course)
 4. #### [Bootstrap Course](https://github.com/MelAsAdaLovelace/FullStackCourse/tree/master/4_Bootstrap-Course) 
 5. #### [SASS Course](https://github.com/MelAsAdaLovelace/FullStackCourse/tree/master/5_Sass-Course) 
+6. #### [Node-Mongo-REST-API Course](https://github.com/MelAsAdaLovelace/FullStackCourse/tree/master/6_Node-Mongo-REST-API) 
+
 
